@@ -13,7 +13,8 @@ public class Lab3 {
             count ++;
           }
       }
-     System.out.println(count);
+     System.out.println("word count: " + count);
+
 
     }
 
@@ -28,6 +29,9 @@ public class Lab3 {
         String contents = urlScanner.useDelimiter("\\A").next();
         urlScanner.close();
         return contents;
+
+
+
 
     }
 }
